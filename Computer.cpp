@@ -11,6 +11,7 @@ Computer::Computer(const std::string & _cpu, const std::string & _diskType, cons
     diskType = _diskType;
     diskSizeGB = _diskSizeGB;
     memSizeGB = _memSizeGB;
+    frfrfr
 }
 
 void Computer::print() const

@@ -12,7 +12,7 @@ Computer::Computer(const std::string & _cpu, const std::string & _diskType, cons
     diskSizeGB = _diskSizeGB;
     memSizeGB = _memSizeGB;
 }
-
+efef
 void Computer::print() const
 {  
     std::cout << "Computer: CPU = " << cpu << ", Disk type = " << diskType << ", Disk size (GB) = " << diskSizeGB << ", Manufacturer = " << getManufacturer() << ", Description = " << getDescription() << ", SN = " << getSerialNumber() << std::endl; 
